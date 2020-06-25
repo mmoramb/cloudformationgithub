@@ -188,7 +188,7 @@
             }
         },
         "RestAPICallerManagedPolicy": {
-            "Type": "AWS::IAM::MAnagedPolicy",
+            "Type": "AWS::IAM::ManagedPolicy",
             "DependsOn": ["RestAPI","APIFunction", "RestAPICaller"],
             "Properties": {
                 "Description": "Get_Car API Caller",
